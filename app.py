@@ -1,4 +1,4 @@
-## flask app for hello world
+## flask app for hello world Code
 
 from flask import Flask
 import numpy as np
@@ -13,4 +13,5 @@ def home():
 
 
 if __name__=="__main__":
+
     app.run(host="0.0.0.0",port=5000)
